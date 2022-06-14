@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Komet', sans-serif;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+p {
+    font-family: komet, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: black;
+}
+
+
+
+
+/* Navigation */
+
+nav.r-nav {
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+
+
+nav .navbar-nav li a {
+    color: White;
+     !important;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-family: komet, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-right: 10px;
+}
+
+nav .navbar-nav li a:hover {
+    color: rgb(106, 178, 47);
+    opacity: 0.8;
+}
+
+nav .navbar-nav li {
+    margin-left: 15px;
+}
+
+nav.r-nav.stickyadd {
+    background: rgb(61, 100, 41);
+     !important;
+    opacity: 0.9;
+    padding: 12px 0;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+    transition: .2s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+    color: #000;
+    font-size: 2.5rem;
+    transition: .2 all;
+}
+
+.navbar-brand {
+    width: 17%;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+    color: white !important;
+}
+
+nav.stickyadd .navbar-nav .nav-link:hover {
+    color: rgb(106, 178, 47) !important;
+}
+
+.navbar .hamburger {
+    color: #fff;
+}
+
+nav.stickyadd .hamburger {
+    color: #000;
+}
+
+/* header*/
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/F5B.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+video {
+    max-width: 1140px;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.content {
+    max-width: 1140px;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    max-width: 700px;
+    color: #fff;
+}
+
+.content-box h4 {
+    font-size: 1.875rem;
+}
+
+.content-box h1 {
+    font-size: 3.25rem;
+}
+
+.content-box a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.content-box a:hover {
+    color: #000;
+    background: #fff;
+    transition: 0.5sall;
+}
+
+.content-box p {
+    color: #fff;
+}
+
+//*
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+*//
